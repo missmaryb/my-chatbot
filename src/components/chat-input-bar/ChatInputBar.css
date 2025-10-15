@@ -1,0 +1,46 @@
+.chat-input-container {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 100px);
+  padding: 16px;
+  /*margin-bottom: 20px;*/
+  gap: 12px;
+  background-color: white;
+}
+
+.chat-input-bar {
+  border: 1px solid #d3d3d3;
+  border-radius: 30px;
+  padding: 16px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-field {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  border: none;
+  background: none;
+  padding: 0 20px;
+  width: 100%;
+  overflow-y: auto;
+  color: #333;
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+.search-field-container {
+  display: flex;
+  width: 100%;
+  max-width: 4;
+}
+
+.error-message {
+  margin: 10px 0px 0px 20px;
+  color: #ed143d;
+}

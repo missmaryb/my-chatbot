@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1976d2; /* Material UI primary blue */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* keeps it above other elements */
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: opacity 0.2s ease;
+  margin-right: 20px;
+}
+
+.icon-button:hover {
+  opacity: 0.8;
+}
+
+.icon-button:focus {
+  outline: none;
+}
