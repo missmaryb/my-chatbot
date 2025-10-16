@@ -9,18 +9,14 @@
 }
 
 .chat {
-  flex: 1;
   padding: 0 50px;
-  width: calc(100% - 400px);
-  height: 100vh;
   overflow-y: auto;
-  margin: 100px 0px 150px 0;
+  margin: 100px 0px 250px 0;
 }
 
 .chat-image {
   width: 256px;
   height: 100%;
-  /*border: 1px solid #ddd;*/
   border-radius: 20px;
   padding: 5px;
   margin: 5px;
@@ -53,4 +49,12 @@
 
 .llm-response-text {
   padding: 5px 8px;
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets and larger screens */
+  .chat {
+    width: calc(100% - 400px);
+    margin: 100px 0px 150px 0;
+  }
 }
